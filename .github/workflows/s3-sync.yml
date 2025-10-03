@@ -51,9 +51,9 @@ jobs:
       # Step 3: Build the Docker image
       - name: Build Docker image
         run: |
-          docker build -t sunilbajiya/ci_cd_without_s3:latest .
+          docker build -t sunilbajiya/withouts3:latest .
 
       # Step 4: Push the Docker image
       - name: Push Docker image
         run: |
-          docker push sunilbajiya/ci_cd_without_s3:latest
+          docker push sunilbajiya/withouts3:latest
